@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "80:3000"
+    environment:
+      VUE_APP_SUBDOMAIN: Yoka 
+    container_name: aplikasi-pertamaku
